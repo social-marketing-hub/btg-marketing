@@ -1,4 +1,4 @@
-// ✅ AFTER
+//
 const response = await fetch("/.netlify/functions/claude", {
   method: "POST",
   headers: {
@@ -7,3 +7,4 @@ const response = await fetch("/.netlify/functions/claude", {
   },
   body: JSON.stringify({ model: "claude-sonnet-4-20250514", ... })
 });
+
